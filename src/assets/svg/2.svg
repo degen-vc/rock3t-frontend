@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="356px" height="184px" viewBox="0 0 356 184" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#1758F8" stop-opacity="0.24" offset="0%"></stop>
+            <stop stop-color="#1758F8" stop-opacity="0" offset="43.0682373%"></stop>
+            <stop stop-color="#1758F8" stop-opacity="0" offset="85.8648682%"></stop>
+            <stop stop-color="#1758F8" stop-opacity="0.239373907" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="360" height="640"></rect>
+        <pattern id="pattern-4" width="8" height="8" x="-8" y="-8" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-5" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-5" width="80" height="80" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAABGdBTUEAALGN5fIAKQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAUKADAAQAAAABAAAAUAAAAAASKG51AAAAr0lEQVR4Ae3QwRGAQAwDsYP+ewYKwDNbgPKM96VzHAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIPAvcP2/fZ/visJdIs0WALht0gIwMe0I4LZJC8DEtCOA2yYtABPTjgBum7QATEw7egF0qAQQKUBlFQAAAABJRU5ErkJggg=="></image>
+        <filter x="-2.3%" y="-4.7%" width="104.7%" height="109.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.24 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-5.6%" y="-12.5%" width="111.2%" height="141.7%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.24 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-5.6%" y="-12.5%" width="111.2%" height="141.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.24 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-5.6%" y="-12.5%" width="111.2%" height="125.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.24 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-5.6%" y="-12.5%" width="111.2%" height="125.0%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.24 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rock3t_Concept-1" transform="translate(-2.000000, -454.000000)">
+            <g id="✱-/-Color-/-Surface-/-Base" fill="#0A0F20">
+                <rect id="Rectangle-13" x="0" y="0" width="360" height="640"></rect>
+            </g>
+            <g id="Group">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Rectangle" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <g id="Group-20" mask="url(#mask-3)" fill="url(#pattern-4)" opacity="0.0799999982">
+                    <g transform="translate(-4.000000, -4.000000)" id="Rectangle">
+                        <rect x="0" y="0" width="368" height="647"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-7" transform="translate(8.000000, 460.000000)">
+                <g id="Group-5" filter="url(#filter-6)">
+                    <rect id="Rectangle" stroke="#FFFFFF" opacity="0.239999995" x="0.5" y="0.5" width="343" height="171"></rect>
+                    <path d="M4,0 L4,1 L1,1 L1,4 L0,4 L0,0 L4,0 Z" id="Combined-Shape" fill="#FFFFFF" opacity="0.539999962"></path>
+                    <path d="M4,168 L4,169 L1,169 L1,172 L0,172 L0,168 L4,168 Z" id="Combined-Shape-Copy-2" fill="#FFFFFF" opacity="0.539999962" transform="translate(2.000000, 170.000000) scale(1, -1) translate(-2.000000, -170.000000) "></path>
+                    <path d="M344,0 L344,1 L341,1 L341,4 L340,4 L340,0 L344,0 Z" id="Combined-Shape-Copy" fill="#FFFFFF" opacity="0.539999962" transform="translate(342.000000, 2.000000) scale(-1, 1) translate(-342.000000, -2.000000) "></path>
+                    <path d="M344,168 L344,169 L341,169 L341,172 L340,172 L340,168 L344,168 Z" id="Combined-Shape-Copy-3" fill="#FFFFFF" opacity="0.539999962" transform="translate(342.000000, 170.000000) scale(-1, -1) translate(-342.000000, -170.000000) "></path>
+                </g>
+                <g id="Group-4" transform="translate(8.000000, 8.000000)">
+                    <g id="Group-3" filter="url(#filter-7)">
+                        <g id="Group-2" opacity="0.239999995">
+                            <path d="M160,64 L152,72 L0,72 L0,8 L8,0 L160,0 L160,64 Z" id="Combined-Shape" stroke="#FFFFFF"></path>
+                            <rect id="Rectangle" fill="#FFFFFF" x="0" y="8" width="160" height="24"></rect>
+                        </g>
+                        <text id="MAX-FUEL" font-family="Helvetica" font-size="12.6796875" font-weight="normal" line-spacing="16" letter-spacing="0.400000006" fill="#FFFFFF">
+                            <tspan x="12" y="25">MAX </tspan>
+                            <tspan x="12" y="41">FUEL</tspan>
+                        </text>
+                        <text id="999ETH" font-family="Helvetica" font-size="21.1328125" font-weight="normal" letter-spacing="0.25" fill="#FFFFFF">
+                            <tspan x="12" y="60">999ET</tspan>
+                            <tspan x="12" y="85">H</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-3-Copy" filter="url(#filter-8)" transform="translate(168.000000, 0.000000)">
+                        <g id="Group-2" opacity="0.239999995">
+                            <path d="M160,64 L152,72 L0,72 L0,8 L8,0 L160,0 L160,64 Z" id="Combined-Shape" stroke="#FFFFFF"></path>
+                            <rect id="Rectangle" fill="#FFFFFF" x="0" y="8" width="160" height="24"></rect>
+                        </g>
+                        <text id="Lock-period" font-family="Helvetica" font-size="12.6796875" font-weight="normal" line-spacing="16" letter-spacing="0.400000006" fill="#FFFFFF">
+                            <tspan x="12" y="25">LOCK </tspan>
+                            <tspan x="12" y="41">PERIOD</tspan>
+                        </text>
+                        <text id="1DAY" font-family="Helvetica" font-size="21.1328125" font-weight="normal" letter-spacing="0.25" fill="#FFFFFF">
+                            <tspan x="12" y="60">1DA</tspan>
+                            <tspan x="12" y="85">Y</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-3-Copy-2" filter="url(#filter-9)" transform="translate(0.000000, 84.000000)">
+                        <g id="Group-2" opacity="0.239999995">
+                            <path d="M160,64 L152,72 L0,72 L0,8 L8,0 L160,0 L160,64 Z" id="Combined-Shape" stroke="#FFFFFF"></path>
+                            <rect id="Rectangle" fill="#FFFFFF" x="0" y="8" width="160" height="24"></rect>
+                        </g>
+                        <text id="LP-BOOST" font-family="Helvetica" font-size="12.6796875" font-weight="normal" line-spacing="16" letter-spacing="0.400000006" fill="#FFFFFF">
+                            <tspan x="12" y="25">LP </tspan>
+                            <tspan x="12" y="41">BOOST</tspan>
+                        </text>
+                        <text id="0.001%" font-family="Helvetica" font-size="21.1328125" font-weight="normal" letter-spacing="0.25" fill="#FFFFFF">
+                            <tspan x="12" y="60">0.001%</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-3-Copy-3" filter="url(#filter-10)" transform="translate(168.000000, 84.000000)">
+                        <g id="Group-2" opacity="0.239999995">
+                            <path d="M160,64 L152,72 L0,72 L0,8 L8,0 L160,0 L160,64 Z" id="Combined-Shape" stroke="#FFFFFF"></path>
+                            <rect id="Rectangle" fill="#FFFFFF" x="0" y="8" width="160" height="24"></rect>
+                        </g>
+                        <text id="LP-BURN" font-family="Helvetica" font-size="12.6796875" font-weight="normal" line-spacing="16" letter-spacing="0.400000006" fill="#FFFFFF">
+                            <tspan x="12" y="25">LP </tspan>
+                            <tspan x="12" y="41">BURN</tspan>
+                        </text>
+                        <text id="0.001%" font-family="Helvetica" font-size="21.1328125" font-weight="normal" letter-spacing="0.25" fill="#FFFFFF">
+                            <tspan x="12" y="60">0.001%</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

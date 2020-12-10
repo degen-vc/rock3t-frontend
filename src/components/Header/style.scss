@@ -1,0 +1,14 @@
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    width: calc(100% - 30px);
+    height: 60px;
+    padding: 0 15px;
+}
+
+.info {
+    margin-top: 10px;
+}

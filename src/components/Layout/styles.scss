@@ -1,0 +1,44 @@
+
+.eth-border {
+  height: 162px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  margin-top: 50px;
+  width: 100vw;
+
+}
+.eth-border:before {
+  background-image: url("../../assets/svg/ethBorder.svg");
+  height: 166px;
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  position: absolute;
+}
+.base-background {
+  background-image: url("../../assets/svg/layout.svg");
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+}
+.bordered-data {
+
+}
+.bordered-data-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+.rocket-container {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  top: 50px;
+}
