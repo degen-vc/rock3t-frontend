@@ -4,9 +4,15 @@
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    width: calc(100% - 30px);
+    width: calc(360px - 30px);
     height: 60px;
     padding: 0 15px;
+    .metamask-icon {
+        cursor: pointer;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
 }
 
 .info {

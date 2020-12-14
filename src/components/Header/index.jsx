@@ -1,6 +1,5 @@
 import React, { PureComponent, Fragment } from 'react'
 
-import {  NavLink } from "react-router-dom";
 
 import { connect } from 'react-redux';
 import { getAuth } from '../../actions'
@@ -30,25 +29,24 @@ class Header extends PureComponent {
         this.checkAuth()
     }
 
-    checkAuth(){
+    checkAuth() {
         const ethereum = window.ethereum
         if (ethereum) {
-            if( ethereum.selectedAddress !== null){
+            if (ethereum.selectedAddress !== null) {
                 this.setState({ auth: ethereum.selectedAddress })
                 localStorage.auth = ethereum.selectedAddress;
-            }else{
-                const self = this
+            } else {
                 this.setState({ auth: localStorage.auth })
-                this.timeout = setTimeout(()=>{
+                this.timeout = setTimeout(() => {
                     const ethereum = window.ethereum;
                     if (ethereum.selectedAddress !== null) {
-                        self.setState({ auth: ethereum.selectedAddress })
+                        this.setState({ auth: ethereum.selectedAddress })
                         localStorage.auth = ethereum.selectedAddress;
-                    }else{
+                    } else {
                         localStorage.auth = '';
-                        self.setState({auth: false})
+                        this.setState({ auth: false })
                     }
-                },400)
+                }, 400)
             }
         }
     }
@@ -77,22 +75,19 @@ class Header extends PureComponent {
     }
 
     render() {
-        const { isProfileOpen, auth } = this.state;
+        const { auth } = this.state;
         const { authorized } = this.props;
         return (
             <Fragment>
                 <header className='header'>
-                    <div><img src={rocketLogo}/></div>
-                    <div><img src={twitter}/></div>
-                    <div><img src={discord}/></div>
-                    <div><img src={telegram}/></div>
-                    <div><img src={github}/></div>
-                    {authorized || auth ?
-                        <div>
-                            <img src={logo} alt=""/></div>
-                        :
-                        <div  onClick={this.toLogin}> <img src={logo} alt=""/></div>
-                    }
+                    <div><img alt='' src={rocketLogo} /></div>
+                    <div><img alt='' src={twitter} /></div>
+                    <div><img alt='' src={discord} /></div>
+                    <div><img alt='' src={telegram} /></div>
+                    <div><img alt='' src={github} /></div>
+                    
+                    <img className='metamask-icon' src={logo} alt="" onClick={() => { if (auth || authorized) { this.toLogin() } }}/>
+                 
                 </header>
 
             </Fragment>

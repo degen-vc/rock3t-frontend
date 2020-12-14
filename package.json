@@ -1,70 +1,70 @@
 {
-  "name": "rocket",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@metamask/detect-provider": "^1.2.0",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "gh-pages": "^3.1.0",
-    "html-webpack-plugin": "^4.5.0",
-    "jquery": "^3.5.1",
-    "prop-types": "^15.6.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-redux": "^7.2.2",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0",
-    "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0",
-    "web-vitals": "^0.2.4",
-    "web3": "^1.2.6"
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "8.1.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "cross-env": "^5.2.0",
-    "css-loader": "^1.0.0",
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "enzyme-to-json": "^3.3.4",
-    "file-loader": "^1.1.11",
-    "jest": "26.6.0",
-    "mini-css-extract-plugin": "^0.4.1",
-    "node-sass": "^4.9.2",
-    "react-test-renderer": "^16.4.1",
-    "sass-loader": "^7.0.3",
-    "style-loader": "^0.21.0",
-    "url-loader": "^1.0.1"
-  },
-  "scripts": {
-    "start": "HOST=0.0.0.0 react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "rocket",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@metamask/detect-provider": "^1.2.0",
+        "@testing-library/jest-dom": "^5.11.4",
+        "@testing-library/react": "^11.1.0",
+        "@testing-library/user-event": "^12.1.10",
+        "gh-pages": "^3.1.0",
+        "html-webpack-plugin": "^4.5.0",
+        "jquery": "^3.5.1",
+        "prop-types": "^15.6.2",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-redux": "^7.2.2",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "4.0.0",
+        "redux": "^4.0.5",
+        "redux-thunk": "^2.3.0",
+        "web-vitals": "^0.2.4",
+        "web3": "^1.2.6"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "8.1.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "cross-env": "^5.2.0",
+        "css-loader": "^1.0.0",
+        "enzyme": "^3.3.0",
+        "enzyme-adapter-react-16": "^1.1.1",
+        "enzyme-to-json": "^3.3.4",
+        "file-loader": "^1.1.11",
+        "jest": "26.6.0",
+        "mini-css-extract-plugin": "^0.4.1",
+        "node-sass": "^4.9.2",
+        "react-test-renderer": "^16.4.1",
+        "sass-loader": "^7.0.3",
+        "style-loader": "^0.21.0",
+        "url-loader": "^1.0.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "deploy": "gh-pages -d build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }

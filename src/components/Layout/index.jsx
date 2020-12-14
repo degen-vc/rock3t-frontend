@@ -1,7 +1,7 @@
 
 import React, { PureComponent, Fragment } from 'react'
-import rocket from '../../assets/svg/rocket.svg'
-import border from '../../assets/svg/dataBorder.svg'
+import rocket from '../../assets/rocket.png'
+import ETH from '../../assets/svg/eth.svg'
 import './styles.scss'
 class Layout extends PureComponent {
 
@@ -11,32 +11,41 @@ class Layout extends PureComponent {
             <Fragment>
                 <div className="base-background" >
                     <div className="rocket-container">
-                        <div style={{flexGrow: 1}}>
-                            <img alt=''/>
+                        <img src={rocket} alt='' />
+                    </div>
+                    <div className="eth-border actions">
+                        <div className='amount'>
+                            <div className='title'>AMOUNT</div>
+                            <div className='image-wrap'>ETH<img src={ETH} alt=''></img></div>
                         </div>
-                        <div  style={{flexGrow: 1}}>
-                            <img alt=''/>
+                        <div className='border-wrap'>
+                            <div className='title'>LOCKED LP</div>
+                            <div className='number'>0.000000</div>
                         </div>
-                        <div style={{flexGrow: 2}}>
-                            <img src={rocket} alt=''/>
+                        <div className='send-eth button eth'>
+                            <div className='title'>SEND ETH</div>
+                        </div>
+                        <div className='claim-lp button claim'>
+                            <div className='title'>CLAIM LP</div>
                         </div>
                     </div>
                     <div className="eth-border">
-                        WIP
-                    </div>
-                    <div className="eth-border" style={{marginTop: 10}}>
                         <div className="bordered-data-container">
                             <div className="bordered-data">
-                                <img src={border} style={{height: 72, width: 170}} alt={''}/>
+                                <div className='title'>MAX FUEL</div>
+                                <div className='value'>999ETH</div>
                             </div>
                             <div className="bordered-data">
-                                <img src={border} style={{height: 72, width: 170}} alt={''}/>
+                                <div className='title'>LOCK PERIOD</div>
+                                <div className='value'>1DAY</div>
                             </div>
                             <div className="bordered-data">
-                                <img src={border} style={{height: 72, width: 170}} alt={''}/>
+                                <div className='title'>LP BOOST</div>
+                                <div className='value'>0.001%</div>
                             </div>
                             <div className="bordered-data">
-                                <img src={border} style={{height: 72, width: 170}} alt={''}/>
+                                <div className='title'>LP BURN</div>
+                                <div className='value'>0.001%</div>
                             </div>
                         </div>
                     </div>
