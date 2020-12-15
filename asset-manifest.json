@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.122faf55.chunk.css",
+    "main.js": "/react-gh-pages/static/js/main.393de4f0.chunk.js",
+    "main.js.map": "/react-gh-pages/static/js/main.393de4f0.chunk.js.map",
+    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.2801364b.js",
+    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.2801364b.js.map",
+    "static/js/2.06ac4aa3.chunk.js": "/react-gh-pages/static/js/2.06ac4aa3.chunk.js",
+    "static/js/2.06ac4aa3.chunk.js.map": "/react-gh-pages/static/js/2.06ac4aa3.chunk.js.map",
+    "index.html": "/react-gh-pages/index.html",
+    "static/css/main.122faf55.chunk.css.map": "/react-gh-pages/static/css/main.122faf55.chunk.css.map",
+    "static/js/2.06ac4aa3.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.06ac4aa3.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/react-gh-pages/static/media/layout.afb15684.svg",
+    "static/media/discord.d6e91214.svg": "/react-gh-pages/static/media/discord.d6e91214.svg",
+    "static/media/eth.4391c1d3.svg": "/react-gh-pages/static/media/eth.4391c1d3.svg",
+    "static/media/github.1f9b67f1.svg": "/react-gh-pages/static/media/github.1f9b67f1.svg",
+    "static/media/icon.0fff83c3.svg": "/react-gh-pages/static/media/icon.0fff83c3.svg",
+    "static/media/metamask.872a6ec4.svg": "/react-gh-pages/static/media/metamask.872a6ec4.svg",
+    "static/media/rocket.dcdd6316.png": "/react-gh-pages/static/media/rocket.dcdd6316.png",
+    "static/media/rocketLogo.dad5b4bd.svg": "/react-gh-pages/static/media/rocketLogo.dad5b4bd.svg",
+    "static/media/telegram.acfdae47.svg": "/react-gh-pages/static/media/telegram.acfdae47.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2801364b.js",
+    "static/js/2.06ac4aa3.chunk.js",
+    "static/css/main.122faf55.chunk.css",
+    "static/js/main.393de4f0.chunk.js"
+  ]
+}

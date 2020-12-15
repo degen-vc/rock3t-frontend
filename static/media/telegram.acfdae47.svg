@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="19px" viewBox="0 0 22 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon / telegram / Filled</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#1758F8" stop-opacity="0.24" offset="0%"></stop>
+            <stop stop-color="#1758F8" stop-opacity="0" offset="43.0682373%"></stop>
+            <stop stop-color="#1758F8" stop-opacity="0" offset="85.8648682%"></stop>
+            <stop stop-color="#1758F8" stop-opacity="0.239373907" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="360" height="640"></rect>
+        <pattern id="pattern-4" width="8" height="8" x="-8" y="-8" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-5" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-5" width="80" height="80" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAABGdBTUEAALGN5fIAKQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAUKADAAQAAAABAAAAUAAAAAASKG51AAAAr0lEQVR4Ae3QwRGAQAwDsYP+ewYKwDNbgPKM96VzHAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIPAvcP2/fZ/visJdIs0WALht0gIwMe0I4LZJC8DEtCOA2yYtABPTjgBum7QATEw7egF0qAQQKUBlFQAAAABJRU5ErkJggg=="></image>
+        <path d="M22.6603128,3.50958252 C22.3915903,3.18093874 21.989094,3 21.5268442,3 C21.2755778,3 21.0093729,3.05287171 20.7357828,3.15744016 L2.11319371,10.2662506 C1.12491246,10.6434021 0.991810052,11.2093811 1.00037022,11.5131836 C1.00893039,11.8169861 1.17392369,12.3745728 2.18201083,12.6953278 C2.18805335,12.6971741 2.19409579,12.6990204 2.20013831,12.7006989 L6.06296177,13.8061371 L8.15198153,19.7798004 C8.43681738,20.5941925 9.07614537,21.1000824 9.82071324,21.1000824 C10.2901804,21.1000824 10.7519266,20.9033661 11.1561014,20.5314178 L13.5453989,18.3314514 L17.0109293,21.1219025 C17.011265,21.1222381 17.0117685,21.122406 17.0121042,21.1227417 L17.0450022,21.1492615 C17.0480234,21.1516113 17.0512125,21.154129 17.0542337,21.1564789 C17.4394419,21.455246 17.8598978,21.6131897 18.2706186,21.6131897 L18.2707865,21.6131897 C19.0732614,21.6131897 19.7122538,21.0191803 19.8983957,20.1000519 L22.9496805,5.03346254 C23.0722086,4.42871094 22.9694864,3.88757324 22.6603128,3.50958252 L22.6603128,3.50958252 Z M7.35521337,13.5961609 L14.8077738,9.78889466 L10.1673166,14.7197266 C10.0912821,14.8004608 10.0374033,14.8993225 10.0108835,15.0069122 L9.11609286,18.6313934 L7.35521337,13.5961609 Z M10.2827951,19.5830841 C10.2519113,19.6114502 10.2208597,19.6367951 10.1898081,19.6601257 L11.0199778,16.297821 L12.5300944,17.5138703 L10.2827951,19.5830841 Z M21.6862986,4.77749636 L18.6350138,19.8442536 C18.6056406,19.9884339 18.5118143,20.3239593 18.2706186,20.3239593 C18.1514475,20.3239593 18.0017282,20.2590027 17.8484842,20.1410065 L13.9215433,16.9791107 C13.9210398,16.9786072 13.9203684,16.9781036 13.919697,16.9777679 L11.5831034,15.0962067 L18.2937815,7.96557617 C18.5086252,7.73730469 18.5280954,7.38768004 18.3399393,7.13691712 C18.1516153,6.88615416 17.810383,6.80726625 17.531254,6.9499359 L6.49399205,12.5885773 L2.57863254,11.4683685 L21.1955149,4.3617401 C21.3527872,4.30165101 21.4625589,4.2890625 21.5268442,4.2890625 C21.5662882,4.2890625 21.6364481,4.29376221 21.6624643,4.32582093 C21.6967051,4.36761475 21.7403452,4.51011657 21.6862986,4.77749636 L21.6862986,4.77749636 Z" id="path-6"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rock3t_Concept-1" transform="translate(-233.000000, -19.000000)">
+            <g id="✱-/-Color-/-Surface-/-Base" fill="#0A0F20">
+                <rect id="Rectangle-13" x="0" y="0" width="360" height="640"></rect>
+            </g>
+            <g id="Group">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Rectangle" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <g id="Group-20" mask="url(#mask-3)" fill="url(#pattern-4)" opacity="0.0799999982">
+                    <g transform="translate(-4.000000, -4.000000)" id="Rectangle">
+                        <rect x="0" y="0" width="368" height="647"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-9">
+                <rect id="Rectangle" x="0" y="0" width="360" height="56"></rect>
+                <g id="telegram-(1)" transform="translate(232.000000, 16.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <g id="Shape" fill-rule="nonzero"></g>
+                    <g id="Group" mask="url(#mask-7)" fill="#FFFFFF" fill-opacity="0.54">
+                        <g id="↳-Icon-Color">
+                            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

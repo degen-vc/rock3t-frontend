@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="18px" viewBox="0 0 22 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon / twitter / Filled</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#1758F8" stop-opacity="0.24" offset="0%"></stop>
+            <stop stop-color="#1758F8" stop-opacity="0" offset="43.0682373%"></stop>
+            <stop stop-color="#1758F8" stop-opacity="0" offset="85.8648682%"></stop>
+            <stop stop-color="#1758F8" stop-opacity="0.239373907" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="360" height="640"></rect>
+        <pattern id="pattern-4" width="8" height="8" x="-8" y="-8" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-5" transform="scale(0.1,0.1)"></use>
+        </pattern>
+        <image id="image-5" width="80" height="80" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAABGdBTUEAALGN5fIAKQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAUKADAAQAAAABAAAAUAAAAAASKG51AAAAr0lEQVR4Ae3QwRGAQAwDsYP+ewYKwDNbgPKM96VzHAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIPAvcP2/fZ/visJdIs0WALht0gIwMe0I4LZJC8DEtCOA2yYtABPTjgBum7QATEw7egF0qAQQKUBlFQAAAABJRU5ErkJggg=="></image>
+        <path d="M23,5.40473939 C21.6161041,5.46852113 21.6463165,5.46331787 21.4898834,5.47640989 L22.3094788,3.13578795 C22.3094788,3.13578795 19.7511597,4.0769043 19.1026001,4.24525453 C17.399292,2.71432493 14.8674927,2.64668275 13.0574341,3.75917054 C11.57518,4.67041016 10.7795868,6.23524476 11.0449524,8.06427002 C8.16017152,7.6639557 5.72958372,6.29650879 3.81059264,3.99130247 L3.20365905,3.26234437 L2.75013734,4.09519957 C2.17694092,5.14759828 1.9866028,6.35089111 2.21403502,7.48335267 C2.30735778,7.94795228 2.46597292,8.39106752 2.68568421,8.80598451 L2.16502379,8.60423278 L2.10325621,9.47418213 C2.04064941,10.3578949 2.33488463,11.3894806 2.89045716,12.2334137 C3.04689027,12.4710846 3.24830629,12.7320862 3.50360107,12.989563 L3.23454284,12.9482727 L3.56285094,13.9451141 C3.99438477,15.2548218 4.89068604,16.2681122 6.05386355,16.8314056 C4.89219664,17.3243714 3.95376589,17.638916 2.41125488,18.1463165 L1,18.6102448 L2.30349734,19.3229217 C2.80049134,19.5946655 4.55667116,20.5022125 6.29187012,20.7744598 C10.1489868,21.3793793 14.4916839,20.8867493 17.4152374,18.2537384 C19.8777161,16.0359802 20.68573,12.8813019 20.5178833,9.59838867 C20.4925384,9.10139466 20.6286621,8.62705993 20.9012451,8.26300049 C21.4472504,7.53404235 22.9966431,5.40960693 23,5.40473939 Z M19.8704987,7.49090576 C19.4178161,8.09532164 19.1910553,8.86724854 19.2316742,9.66418457 C19.4010315,12.9756317 18.5000305,15.5436859 16.5535126,17.2966766 C14.2796936,19.344574 10.6120758,20.1483917 6.49143981,19.5020142 C5.74519349,19.385025 4.97393799,19.1230163 4.33561705,18.8613434 C5.62887571,18.4163818 6.62756348,18.0197601 8.24040221,17.2563934 L10.4918976,16.1907349 L8.00608825,16.0316162 C6.81538392,15.9554138 5.82391357,15.3783569 5.21446227,14.4414368 C5.53807067,14.422638 5.85009766,14.3702698 6.16078187,14.2836609 L8.53161621,13.6233521 L6.14097594,13.0379028 C4.97930908,12.7534027 4.31715394,12.0583496 3.96618652,11.5252686 C3.73573304,11.1749725 3.58517454,10.8161163 3.49487305,10.4852905 C3.73455811,10.5495758 4.01402282,10.5953979 4.46469114,10.6400452 L6.67741393,10.8589173 L4.92425537,9.49130247 C3.66104128,8.50604248 3.1548157,7.0258026 3.52592467,5.60279847 C7.46830748,9.69187926 12.0971832,9.38455202 12.5631256,9.49264524 C12.4605713,8.49647523 12.4578857,8.49412536 12.4310303,8.39929199 C11.8343353,6.28996276 13.1420288,5.21893311 13.7318421,4.85638428 C14.9638366,4.09922789 16.9194183,3.98509215 18.2739411,5.23252868 C18.5664978,5.50175475 18.9621124,5.60766602 19.3323822,5.51568604 C19.6647186,5.43310547 19.9374695,5.34565736 20.2045135,5.25048828 L19.6486053,6.83798216 L20.3582611,6.83848571
+C20.2243195,7.01808168 20.0636902,7.23309326 19.8704987,7.49090576 Z" id="path-6"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rock3t_Concept-1" transform="translate(-145.000000, -19.000000)">
+            <g id="✱-/-Color-/-Surface-/-Base" fill="#0A0F20">
+                <rect id="Rectangle-13" x="0" y="0" width="360" height="640"></rect>
+            </g>
+            <g id="Group">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Rectangle" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <g id="Group-20" mask="url(#mask-3)" fill="url(#pattern-4)" opacity="0.0799999982">
+                    <g transform="translate(-4.000000, -4.000000)" id="Rectangle">
+                        <rect x="0" y="0" width="368" height="647"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-9">
+                <rect id="Rectangle" x="0" y="0" width="360" height="56"></rect>
+                <rect id="Rectangle-Copy-26" x="136" y="8" width="40" height="40"></rect>
+                <g id="twitter" transform="translate(144.000000, 16.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <g id="Shape" fill-rule="nonzero"></g>
+                    <g id="Group" mask="url(#mask-7)" fill="#FFFFFF" fill-opacity="0.54">
+                        <g id="↳-Icon-Color">
+                            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
