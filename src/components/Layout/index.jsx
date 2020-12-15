@@ -6,7 +6,6 @@ import './styles.scss'
 class Layout extends PureComponent {
 
     render() {
-
         return (
             <Fragment>
                 <div className="base-background" >
