@@ -1,29 +1,28 @@
 {
   "files": {
-    "main.css": "/rock3t-frontend/static/css/main.12afe3ef.chunk.css",
-    "main.js": "/rock3t-frontend/static/js/main.393de4f0.chunk.js",
-    "main.js.map": "/rock3t-frontend/static/js/main.393de4f0.chunk.js.map",
+    "main.css": "/rock3t-frontend/static/css/main.8142d581.chunk.css",
+    "main.js": "/rock3t-frontend/static/js/main.1500d3af.chunk.js",
+    "main.js.map": "/rock3t-frontend/static/js/main.1500d3af.chunk.js.map",
     "runtime-main.js": "/rock3t-frontend/static/js/runtime-main.76799c9e.js",
     "runtime-main.js.map": "/rock3t-frontend/static/js/runtime-main.76799c9e.js.map",
-    "static/js/2.9ae1bff6.chunk.js": "/rock3t-frontend/static/js/2.9ae1bff6.chunk.js",
-    "static/js/2.9ae1bff6.chunk.js.map": "/rock3t-frontend/static/js/2.9ae1bff6.chunk.js.map",
+    "static/js/2.3777c5f7.chunk.js": "/rock3t-frontend/static/js/2.3777c5f7.chunk.js",
+    "static/js/2.3777c5f7.chunk.js.map": "/rock3t-frontend/static/js/2.3777c5f7.chunk.js.map",
     "index.html": "/rock3t-frontend/index.html",
-    "static/css/main.12afe3ef.chunk.css.map": "/rock3t-frontend/static/css/main.12afe3ef.chunk.css.map",
-    "static/js/2.9ae1bff6.chunk.js.LICENSE.txt": "/rock3t-frontend/static/js/2.9ae1bff6.chunk.js.LICENSE.txt",
-    "static/media/styles.scss": "/rock3t-frontend/static/media/layout.afb15684.svg",
+    "static/css/main.8142d581.chunk.css.map": "/rock3t-frontend/static/css/main.8142d581.chunk.css.map",
+    "static/js/2.3777c5f7.chunk.js.LICENSE.txt": "/rock3t-frontend/static/js/2.3777c5f7.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/rock3t-frontend/static/media/rocket.dcdd6316.png",
     "static/media/discord.d6e91214.svg": "/rock3t-frontend/static/media/discord.d6e91214.svg",
     "static/media/eth.4391c1d3.svg": "/rock3t-frontend/static/media/eth.4391c1d3.svg",
     "static/media/github.1f9b67f1.svg": "/rock3t-frontend/static/media/github.1f9b67f1.svg",
     "static/media/icon.0fff83c3.svg": "/rock3t-frontend/static/media/icon.0fff83c3.svg",
     "static/media/metamask.872a6ec4.svg": "/rock3t-frontend/static/media/metamask.872a6ec4.svg",
-    "static/media/rocket.dcdd6316.png": "/rock3t-frontend/static/media/rocket.dcdd6316.png",
     "static/media/rocketLogo.dad5b4bd.svg": "/rock3t-frontend/static/media/rocketLogo.dad5b4bd.svg",
     "static/media/telegram.acfdae47.svg": "/rock3t-frontend/static/media/telegram.acfdae47.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.76799c9e.js",
-    "static/js/2.9ae1bff6.chunk.js",
-    "static/css/main.12afe3ef.chunk.css",
-    "static/js/main.393de4f0.chunk.js"
+    "static/js/2.3777c5f7.chunk.js",
+    "static/css/main.8142d581.chunk.css",
+    "static/js/main.1500d3af.chunk.js"
   ]
 }
