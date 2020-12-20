@@ -1,5 +1,10 @@
+.header-wrap {
+    display: flex;
+    justify-content: center;
+}
+
 .header {
-    position: fixed;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,6 +17,17 @@
         &:hover {
             opacity: 0.9;
         }
+    }
+    .wrap-navigation {
+        display: flex;
+        justify-content: space-between;
+        width: 170px;
+    }
+    @media (min-width: 420px) {
+        width: 920px;
+        margin: 26px 230px;
+        background: #151E3E;
+        border: 1px solid #45536F;
     }
 }
 

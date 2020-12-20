@@ -78,19 +78,20 @@ class Header extends PureComponent {
         const { auth } = this.state;
         const { authorized } = this.props;
         return (
-            <Fragment>
+            <div className='header-wrap'>
                 <header className='header'>
                     <div><img alt='' src={rocketLogo} /></div>
-                    <div><img alt='' src={twitter} /></div>
-                    <div><img alt='' src={discord} /></div>
-                    <div><img alt='' src={telegram} /></div>
-                    <div><img alt='' src={github} /></div>
-                    
+                    <div className='wrap-navigation'><img alt='' src={twitter} />
+                    <img alt='' src={discord} />
+                    <img alt='' src={telegram} />
+                        <img alt='' src={github} />
                     <img className='metamask-icon' src={logo} alt="" onClick={() => { if (auth || authorized) { this.toLogin() } }}/>
+                    </div>
+                    
                  
                 </header>
 
-            </Fragment>
+            </div>
         )
     }
 }
