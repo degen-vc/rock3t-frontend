@@ -9,6 +9,7 @@ import github from '../../assets/icons/github.svg'
 import twitter from '../../assets/icons/icon.svg'
 import telegram from '../../assets/icons/telegram.svg'
 import rocketLogo from '../../assets/svg/rocketLogo.svg'
+import metamaskIcon from '../../assets/metamask.svg'
 import './style.scss'
 
 class Header extends PureComponent {
@@ -82,13 +83,14 @@ class Header extends PureComponent {
                 <header className='header'>
                     <div><img alt='' src={rocketLogo} /></div>
                     <div className='wrap-navigation'><img alt='' src={twitter} />
-                    <img alt='' src={discord} />
-                    <img alt='' src={telegram} />
+                        <img alt='' src={discord} />
+                        <img alt='' src={telegram} />
                         <img alt='' src={github} />
-                    <img className='metamask-icon' src={logo} alt="" onClick={() => { if (auth || authorized) { this.toLogin() } }}/>
+                        <img src={logo} alt=""/>
+                        <img className='metamask-icon' src={metamaskIcon} alt="" onClick={() => { if (auth || authorized) { this.toLogin() } }} />
                     </div>
-                    
-                 
+
+
                 </header>
 
             </div>

@@ -1,6 +1,6 @@
 
 import React, { PureComponent, Fragment } from 'react'
-import { purchaseLP, claim } from '../../actions';
+import { purchaseLP, claim, getLockedLP } from '../../actions';
 import { connect } from 'react-redux';
 import ETH from '../../assets/svg/eth.svg'
 import './styles.scss'
@@ -11,13 +11,16 @@ class Layout extends PureComponent {
             ethValue: ''
         }
     }
+    componentDidMount(){
+        this.props.getLockedLP()
+    }
     changeEthValue(e) {
         const { value } = e.target;
         this.setState({ ethValue: value })
     }
     render() {
         const { ethValue } = this.state;
-        const { purchaseLP, claim } = this.props;
+        const { purchaseLP, claim, balances } = this.props;
         return (
             <Fragment>
                 <div className="base-background" >
@@ -30,7 +33,7 @@ class Layout extends PureComponent {
                             </div>
                             <div className='border-wrap'>
                                 <div className='title'>LOCKED LP</div>
-                                <div className='number'>0.000000</div>
+                                <div className='number'>{balances.lockedLP}00</div>
                             </div>
                             <div className='send-eth button eth' onClick={() => { purchaseLP(ethValue) }}>
                                 <div className='title'>SEND ETH</div>
@@ -47,7 +50,7 @@ class Layout extends PureComponent {
                                 </div>
                                 <div className="bordered-data">
                                     <div className='title'>LOCK PERIOD</div>
-                                    <div className='value'>1DAY</div>
+                                    <div className='value'>{balances.lockPeriod}DAY</div>
                                 </div>
                                 <div className="bordered-data">
                                     <div className='title'>LP BOOST</div>
@@ -55,7 +58,7 @@ class Layout extends PureComponent {
                                 </div>
                                 <div className="bordered-data">
                                     <div className='title'>LP BURN</div>
-                                    <div className='value'>0.001%</div>
+                                    <div className='value'>{balances.lpBurn}%</div>
                                 </div>
                             </div>
                         </div>
@@ -66,6 +69,13 @@ class Layout extends PureComponent {
         )
     }
 }
+
+const mapStateToProps = (state) => {
+    return {
+       balances: state.balance
+    };
+};
+
 const mapDispatchToProps = dispatch => {
     return {
         purchaseLP: (value) => {
@@ -74,6 +84,9 @@ const mapDispatchToProps = dispatch => {
         claim: () => {
             dispatch(claim());
         },
+        getLockedLP: () => {
+            dispatch(getLockedLP());
+        }
     };
 };
-export default connect(() => { }, mapDispatchToProps)(Layout);
+export default connect(mapStateToProps, mapDispatchToProps)(Layout);

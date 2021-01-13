@@ -9,10 +9,11 @@
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    width: calc(360px - 30px);
+    width: calc(100% - 30px);
     height: 60px;
     padding: 0 15px;
     .metamask-icon {
+        width: 20px;
         cursor: pointer;
         &:hover {
             opacity: 0.9;
@@ -23,7 +24,7 @@
         justify-content: space-between;
         width: 170px;
     }
-    @media (min-width: 420px) {
+    @media (min-width: 421px) {
         width: 920px;
         margin: 26px 230px;
         background: #151E3E;

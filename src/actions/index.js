@@ -1,8 +1,9 @@
 import { getAuth } from './auth';
-import { purchaseLP, claim } from './layout'
+import { purchaseLP, claim, getLockedLP } from './layout'
 
 export {
     getAuth,
     purchaseLP,
-    claim
+    claim,
+    getLockedLP
 }
