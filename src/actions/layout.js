@@ -2,16 +2,15 @@ import liquidVaultAbi from './abis/LiquidVaultAbi';
 import RocketAbi from './abis/RocketAbi';
 import { getWeb3 } from "../utils";
 
-const UniswapPairAddress = '0x87efe187ec402a758bd39945c820a87d932fdc3e'
-const LiquidVaultAddress = '0xBce31C8FF148Dbfc589d6070AD59530D65AE1065'
-const RocketTokenAddress = '0x363eB5aFbEF8f96A958172c38Dcf6b1cefEe2e1a'
-const FeeDistributorAddress = '0xA10f12AE671759FcC23E815379c55a3C4459fF0f'
+const UniswapPairAddress = '0x0da97804d98143d9fb33742Ab17bfa38e60c9751'
+const LiquidVaultAddress = '0x920E371f7BDd653b9fA25e91E9CC07A63e94908F'
+const RocketTokenAddress = '0x2b831f9d6128280f45Ad0f4174470D265EE83b7E'
+const FeeDistributorAddress = '0xC006cB9003845a56e6c77a25886f86651D5c1F08'
 
 export const purchaseLP = (value) => {
     return async dispatch => {
         const web3 = await getWeb3();
         const ethAddress = await web3.eth.getAccounts();
-        console.log(111, ethAddress)
         const LiquidContract = await new web3.eth.Contract(liquidVaultAbi, LiquidVaultAddress);
         const RocketContract = await new web3.eth.Contract(RocketAbi, RocketTokenAddress);
         try {
@@ -50,21 +49,19 @@ export const getLockedLP = () => {
             let notReadyTokens = 0;
 
             let feeBalance = 0;
-
+            let lpBurn = 0;
+            let lockPeriod = 0;
+            let lpBoost = 0;
             let { stakeDuration } = await LiquidContract.methods.config().call();
 
             const length = await LiquidContract.methods.lockedLPLength(ethAddress[0]).call();
-            let lockPeriod = await LiquidContract.methods.getLockedPeriod().call();
-            let lpBurn = await LiquidContract.methods.getLPBurnPercentage().call()
+            lockPeriod = await LiquidContract.methods.getLockedPeriod().call();
+            // lpBurn = await LiquidContract.methods.lockPercentageUINT().call();
+            lpBoost = await LiquidContract.methods.feeUINT().call();
             lpBurn = +lpBurn
-            lockPeriod = lockPeriod / 24 / 60 / 60
-            console.log(123, lockPeriod)
-            console.log(123, lpBurn)
-            if (length === '0') {
-
-            } else {
+            lockPeriod = Math.round(lockPeriod / 24 / 60 / 60)
+            if (length !== '0') {
                 let data = await LiquidContract.methods.getLockedLP(ethAddress[0], length - 1).call();
-                console.log(data)
                 tokens = data[1];
                 let count = 0;
 
@@ -83,8 +80,7 @@ export const getLockedLP = () => {
                 notReadyTokens = parseFloat(notReadyTokens.toFixed(2));
             }
             stakeDuration = stakeDuration / 60 / 60 / 24
-            console.log(+tokens + +notReadyTokens)
-            await dispatch({ type: "GET_LIQUID", payload: { lockedLP: +tokens + +notReadyTokens, lockPeriod, lpBurn } });
+            await dispatch({ type: "GET_LIQUID", payload: { lockedLP: +tokens + +notReadyTokens, lockPeriod, lpBurn, lpBoost } });
 
         } catch (error) {
             console.log(error)

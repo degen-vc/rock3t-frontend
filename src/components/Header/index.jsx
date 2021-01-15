@@ -82,11 +82,22 @@ class Header extends PureComponent {
             <div className='header-wrap'>
                 <header className='header'>
                     <div><img alt='' src={rocketLogo} /></div>
-                    <div className='wrap-navigation'><img alt='' src={twitter} />
-                        <img alt='' src={discord} />
-                        <img alt='' src={telegram} />
-                        <img alt='' src={github} />
-                        <img src={logo} alt=""/>
+                    <div className='wrap-navigation'>
+                        <a rel="noopener noreferrer" target="_blank" href='https://twitter.com/rock3tfinance'>
+                            <img alt='' src={twitter} />
+                        </a>
+                        <a rel="noopener noreferrer" target="_blank" href='https://discord.gg/3HMJ7caFhj'>
+                            <img alt='' src={discord} />
+                        </a>
+                        <a rel="noopener noreferrer" target="_blank" href='https://t.me/Rock3Tfinance'>
+                            <img alt='' src={telegram} />
+                        </a>
+                        <a rel="noopener noreferrer" target="_blank" href='https://github.com/degen-vc'>
+                            <img alt='' src={github} />
+                        </a>
+                        <a rel="noopener noreferrer" target="_blank" href='https://medium.com/rock3t'>
+                            <img src={logo} alt="" />
+                        </a>
                         <img className='metamask-icon' src={metamaskIcon} alt="" onClick={() => { if (auth || authorized) { this.toLogin() } }} />
                     </div>
 

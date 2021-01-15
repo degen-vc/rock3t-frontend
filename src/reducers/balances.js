@@ -7,8 +7,8 @@ const initialState = {
 export const balance = function(state = initialState, action) {
     switch (action.type) {
         case "GET_LIQUID":
-            const { lockPeriod, lockedLP, lpBurn } = action.payload
-            return Object.assign({ lockPeriod, lockedLP, lpBurn });
+            const { lockPeriod, lockedLP, lpBurn, lpBoost } = action.payload
+            return Object.assign({ lockPeriod, lockedLP, lpBurn, lpBoost });
         default:
             return state;
     }

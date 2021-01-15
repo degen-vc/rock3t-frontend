@@ -54,7 +54,7 @@ class Layout extends PureComponent {
                                 </div>
                                 <div className="bordered-data">
                                     <div className='title'>LP BOOST</div>
-                                    <div className='value'>0.001%</div>
+                                    <div className='value'>{balances.lpBoost}%</div>
                                 </div>
                                 <div className="bordered-data">
                                     <div className='title'>LP BURN</div>
