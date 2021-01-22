@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/rock3t-frontend/static/css/main.6ec8de47.chunk.css",
-    "main.js": "/rock3t-frontend/static/js/main.4515ebd5.chunk.js",
-    "main.js.map": "/rock3t-frontend/static/js/main.4515ebd5.chunk.js.map",
+    "main.css": "/rock3t-frontend/static/css/main.a7483d9d.chunk.css",
+    "main.js": "/rock3t-frontend/static/js/main.1029169a.chunk.js",
+    "main.js.map": "/rock3t-frontend/static/js/main.1029169a.chunk.js.map",
     "runtime-main.js": "/rock3t-frontend/static/js/runtime-main.76799c9e.js",
     "runtime-main.js.map": "/rock3t-frontend/static/js/runtime-main.76799c9e.js.map",
     "static/js/2.a654899f.chunk.js": "/rock3t-frontend/static/js/2.a654899f.chunk.js",
     "static/js/2.a654899f.chunk.js.map": "/rock3t-frontend/static/js/2.a654899f.chunk.js.map",
     "index.html": "/rock3t-frontend/index.html",
-    "static/css/main.6ec8de47.chunk.css.map": "/rock3t-frontend/static/css/main.6ec8de47.chunk.css.map",
+    "static/css/main.a7483d9d.chunk.css.map": "/rock3t-frontend/static/css/main.a7483d9d.chunk.css.map",
     "static/js/2.a654899f.chunk.js.LICENSE.txt": "/rock3t-frontend/static/js/2.a654899f.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/rock3t-frontend/static/media/rocket.dcdd6316.png",
     "static/media/discord.d6e91214.svg": "/rock3t-frontend/static/media/discord.d6e91214.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.76799c9e.js",
     "static/js/2.a654899f.chunk.js",
-    "static/css/main.6ec8de47.chunk.css",
-    "static/js/main.4515ebd5.chunk.js"
+    "static/css/main.a7483d9d.chunk.css",
+    "static/js/main.1029169a.chunk.js"
   ]
 }
