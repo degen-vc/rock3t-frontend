@@ -11,7 +11,7 @@ class App extends Component {
         return (
             <div className="project">
                 <Header />
-                <Route path="/"><Redirect to="/home" /></Route>
+                <Route path="/"><Redirect to="/" /></Route>
                 <Layout />
             </div>
         );

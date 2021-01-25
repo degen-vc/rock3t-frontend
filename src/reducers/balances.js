@@ -1,7 +1,8 @@
 const initialState = {
     lockedLP: 0,
     lockPeriod: 0,
-    lpBurn: 0
+    lpBurn: 0,
+    lpBoost: 0,
 }
 
 export const balance = function(state = initialState, action) {

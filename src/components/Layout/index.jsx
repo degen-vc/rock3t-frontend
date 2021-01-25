@@ -46,7 +46,7 @@ class Layout extends PureComponent {
                             <div className="bordered-data-container">
                                 <div className="bordered-data">
                                     <div className='title'>MAX FUEL</div>
-                                    <div className='value'>999ETH</div>
+                                    <div className='value'>0ETH</div>
                                 </div>
                                 <div className="bordered-data">
                                     <div className='title'>LOCK PERIOD</div>
