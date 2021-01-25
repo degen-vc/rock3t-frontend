@@ -1,9 +1,0 @@
-ssh www-data@188.166.99.15
-mC{4N@nD
-rm -rf ~/html/*
-mkdir ~/html/rock3t-frontend
-
-In another terminal:
-scp -r ~/Desktop/rock3t-frontend/build/index.html www-data@188.166.99.15:~/html/rock3t-frontend
-scp -r ~/Desktop/rock3t-frontend/build/index.html www-data@188.166.99.15:~/html
-scp -r ~/Desktop/rock3t-frontend/build/* www-data@188.166.99.15:~/html/rock3t-frontend
