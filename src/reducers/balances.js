@@ -2,6 +2,7 @@ const initialState = {
     lockedLP: 0,
     lockPeriod: 0,
     lpBurn: 0,
+    lpBoost: 0,
     maxFuel: 0
 }
 
