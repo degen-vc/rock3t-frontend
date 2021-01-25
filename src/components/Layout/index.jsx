@@ -11,13 +11,16 @@ class Layout extends PureComponent {
             ethValue: ''
         }
     }
+
     componentDidMount(){
         this.props.getLockedLP()
     }
+
     changeEthValue(e) {
         const { value } = e.target;
         this.setState({ ethValue: value })
     }
+
     render() {
         const { ethValue } = this.state;
         const { purchaseLP, claim, balances } = this.props;
@@ -46,7 +49,7 @@ class Layout extends PureComponent {
                             <div className="bordered-data-container">
                                 <div className="bordered-data">
                                     <div className='title'>MAX FUEL</div>
-                                    <div className='value'>999ETH</div>
+                                    <div className='value'>{balances.maxFuel}ETH</div>
                                 </div>
                                 <div className="bordered-data">
                                     <div className='title'>LOCK PERIOD</div>
