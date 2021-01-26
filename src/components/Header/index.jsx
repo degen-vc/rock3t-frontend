@@ -10,6 +10,7 @@ import twitter from '../../assets/icons/icon.svg'
 import telegram from '../../assets/icons/telegram.svg'
 import rocketLogo from '../../assets/svg/rocketLogo.svg'
 import metamaskIcon from '../../assets/metamask.svg'
+import uniswap from '../../assets/icons/uniswap.svg'
 import './style.scss'
 
 class Header extends PureComponent {
@@ -83,6 +84,9 @@ class Header extends PureComponent {
                 <header className='header'>
                     <div><img alt='' src={rocketLogo} /></div>
                     <div className='wrap-navigation'>
+                        {/* <a rel="noopener noreferrer" target="_blank" href='https://twitter.com/rock3tfinance'> */}
+                            <img alt='' src={uniswap} className='uniswap'/>
+                        {/* </a> */}
                         <a rel="noopener noreferrer" target="_blank" href='https://twitter.com/rock3tfinance'>
                             <img alt='' src={twitter} />
                         </a>
@@ -98,7 +102,9 @@ class Header extends PureComponent {
                         <a rel="noopener noreferrer" target="_blank" href='https://medium.com/rock3t'>
                             <img src={logo} alt="" />
                         </a>
-                        <img className='metamask-icon' src={metamaskIcon} alt="" onClick={() => { if (auth || authorized) { this.toLogin() } }} />
+                        <a rel="noopener noreferrer" target="_blank" href='https://metamask.io/'>
+                            <img className='metamask-icon' src={metamaskIcon} alt="" />
+                        </a>
                     </div>
 
 

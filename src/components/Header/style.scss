@@ -12,9 +12,14 @@
     width: calc(100% - 30px);
     height: 60px;
     padding: 0 15px;
+    .uniswap {
+        height: 26px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
     .metamask-icon {
         width: 20px;
-        margin-bottom: 8px;
+        margin-bottom: 2px;
         cursor: pointer;
         &:hover {
             opacity: 0.9;
