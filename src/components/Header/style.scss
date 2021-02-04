@@ -14,7 +14,7 @@
     padding: 0 15px;
     .uniswap {
         height: 26px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         cursor: pointer;
     }
     .metamask-icon {
@@ -36,6 +36,23 @@
         margin: 26px 230px;
         background: #151E3E;
         border: 1px solid #45536F;
+    }
+    .alphadrop-notification {
+        color: #C2C3C8;
+        text-shadow: 0px 4px 1px rgba(255, 255, 255, 0.3);
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 18px;
+        font-style: normal;
+        line-height: 1.26;
+        letter-spacing: 0.4px;
+        position: absolute;
+        width: 180px;
+        font-size: 16px;
+        left: calc(50% - 90px);
+        top: 50px;
+        @media (min-width: 421px) {
+            position: initial;
+        }
     }
 }
 

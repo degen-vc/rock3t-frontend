@@ -164,7 +164,7 @@
     z-index: 2;
     height: 236px;
     width: 346px;
-    margin: 50px auto 0px;
+    margin: 80px auto 0px;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url('../../assets/rocket.png');
@@ -177,5 +177,35 @@
         background-image: url('../../assets/rocket-desctop.png');
         margin-right: 20px;
         width: 454px;
+    }
+}
+
+.address-wrap {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+    width: 330px;
+    left: calc(50% - 165px);
+    color: #C2C3C8;
+    text-shadow: 0px 4px 1px rgba(255, 255, 255, 0.3);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: 0.4px;
+    @media (min-width: 421px) {
+        position: absolute;
+        top: auto;
+        bottom: 20px;
+        z-index: 2;
+        width: 450px;
+        left: calc(50% - 225px);
+        color: #C2C3C8;
+        text-shadow: 0px 4px 1px rgba(255, 255, 255, 0.3);
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 14px;
+        font-style: normal;
+        line-height: 1.26;
+        letter-spacing: 0.4px;
     }
 }

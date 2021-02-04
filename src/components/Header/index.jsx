@@ -18,7 +18,8 @@ class Header extends PureComponent {
         super();
         this.state = {
             auth: false,
-            isProfileOpen: false
+            isProfileOpen: false,
+            globalTime: 0,
         }
 
         this.toLogin = this.toLogin.bind(this)
@@ -29,6 +30,52 @@ class Header extends PureComponent {
 
     componentDidMount() {
         this.checkAuth()
+        this.setState({ globalTime: 1612439800 - (new Date().getTime() / 1000) })
+        // this.interval = setInterval(() => {
+        //     let { globalTime } = this.state;
+        //     globalTime--;
+        //     this.setState({ globalTime })
+        // }, 1000);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.interval);
+    }
+
+    getExpiredTime(time) {
+        let { globalTime } = this.state;
+        let days = 0;
+        let hours = 0;
+        let minutes = 0;
+        let seconds = 0;
+        if (time / 86400 >= 1) {
+            days = (time / 86400);
+            days = Math.trunc(days)
+        }
+        if (days) {
+            time -= days * 86400;
+        }
+        if (time / 3600 >= 1) {
+            hours = time / 3600;
+            hours = Math.trunc(hours)
+        }
+        if (hours) {
+            time -= hours * 3600;
+        }
+        if (time / 60 >= 1) {
+            minutes = time / 60;
+            minutes = Math.trunc(minutes)
+        }
+        if (minutes) {
+            time -= minutes * 60;
+        }
+        seconds = Math.round(time);
+        if ((!days && !hours && !minutes && !seconds) || globalTime <= 0) {
+            return [0, 0, 0, 0]
+        }
+
+        return [days, hours, minutes, seconds]
+
     }
 
     checkAuth() {
@@ -77,16 +124,18 @@ class Header extends PureComponent {
     }
 
     render() {
-        const { auth } = this.state;
+        const { auth, globalTime } = this.state;
         const { authorized } = this.props;
+        const [days, hours, minutes, seconds] = this.getExpiredTime(globalTime);
         return (
             <div className='header-wrap'>
                 <header className='header'>
                     <div><img alt='' src={rocketLogo} /></div>
+                    {/* <div className='alphadrop-notification'>Launch: {`${days}D ${hours === 0 ? '00' : hours < 10 ? '0' + hours : hours}:${minutes === 0 ? '00' : minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds}`}</div> */}
                     <div className='wrap-navigation'>
-                        {/* <a rel="noopener noreferrer" target="_blank" href='https://twitter.com/rock3tfinance'> */}
-                            <img alt='' src={uniswap} className='uniswap'/>
-                        {/* </a> */}
+                        <a rel="noopener noreferrer" target="_blank" href='https://app.uniswap.org/#/swap?inputCurrency=0xAA14b6857F647211E0D43705E26c13A7CE2e3494'>
+                            <img alt='' src={uniswap} className='uniswap' />
+                        </a>
                         <a rel="noopener noreferrer" target="_blank" href='https://twitter.com/rock3tfinance'>
                             <img alt='' src={twitter} />
                         </a>
