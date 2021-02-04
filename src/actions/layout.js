@@ -3,10 +3,17 @@ import RocketAbi from './abis/RocketAbi';
 import UniswapOracleAbi from './abis/UniswapOracleAbi';
 
 import { getWeb3 } from "../utils";
+
+
+
 const RocketToken = '0xE1F8caA30d887C91acF99D8A5E9a216c94417769'
 const LiquidVaultAddress = '0xdac0E4900A4a1d7d675F32D9AaFa6848F5F787b5';
 const FeeDistributor = '0x40eaB35bfeae8fCB9300797f2B875bbdC60DF56F';
 const UniswapOracle = '0x46495fc00024c2018110CB5bB79E8F2B2dC4128a'
+    // const RocketToken = process.env.REACT_APP_ROCKET_ADDRESS;
+    // const LiquidVaultAddress = process.env.REACT_APP_LIQUID_ADDRESS;
+    // const FeeDistributor = process.env.REACT_APP_FEE_DISTRIBUTOR_ADDRESS;
+    // const UniswapOracle = process.env.REACT_APP_UNISWAP_ADDRESS;
 
 export const purchaseLP = (value) => {
     return async dispatch => {
@@ -85,7 +92,7 @@ export const getLockedLP = () => {
                 notReadyTokens = parseFloat(notReadyTokens.toFixed(2));
             }
             stakeDuration = stakeDuration / 60 / 60 / 24
-            await dispatch({ type: "GET_LIQUID", payload: { lockedLP: +tokens + +notReadyTokens, lockPeriod, lpBurn, lpBoost, maxFuel } });
+                // await dispatch({ type: "GET_LIQUID", payload: { lockedLP: +tokens + +notReadyTokens, lockPeriod, lpBurn, lpBoost, maxFuel } });
 
         } catch (error) {
             console.log(error)

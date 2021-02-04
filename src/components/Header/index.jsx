@@ -30,12 +30,12 @@ class Header extends PureComponent {
 
     componentDidMount() {
         this.checkAuth()
-        this.setState({ globalTime: 1612439800 - (new Date().getTime() / 1000) })
-        // this.interval = setInterval(() => {
-        //     let { globalTime } = this.state;
-        //     globalTime--;
-        //     this.setState({ globalTime })
-        // }, 1000);
+        this.setState({ globalTime: 1612463200 - (new Date().getTime() / 1000) })
+        this.interval = setInterval(() => {
+            let { globalTime } = this.state;
+            globalTime--;
+            this.setState({ globalTime })
+        }, 1000);
     }
 
     componentWillUnmount() {
@@ -124,14 +124,13 @@ class Header extends PureComponent {
     }
 
     render() {
-        const { auth, globalTime } = this.state;
-        const { authorized } = this.props;
+        const { globalTime } = this.state;
         const [days, hours, minutes, seconds] = this.getExpiredTime(globalTime);
         return (
             <div className='header-wrap'>
                 <header className='header'>
                     <div><img alt='' src={rocketLogo} /></div>
-                    {/* <div className='alphadrop-notification'>Launch: {`${days}D ${hours === 0 ? '00' : hours < 10 ? '0' + hours : hours}:${minutes === 0 ? '00' : minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds}`}</div> */}
+                    <div className='alphadrop-notification'>Launch: {`${days}D ${hours === 0 ? '00' : hours < 10 ? '0' + hours : hours}:${minutes === 0 ? '00' : minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds}`}</div>
                     <div className='wrap-navigation'>
                         <a rel="noopener noreferrer" target="_blank" href='https://app.uniswap.org/#/swap?inputCurrency=0xAA14b6857F647211E0D43705E26c13A7CE2e3494'>
                             <img alt='' src={uniswap} className='uniswap' />

@@ -38,10 +38,10 @@ class Layout extends PureComponent {
                                 <div className='title'>LOCKED LP</div>
                                 <div className='number'>{balances.lockedLP}00</div>
                             </div>
-                            <div className='send-eth button eth' onClick={() => { purchaseLP(ethValue) }}>
+                            <div className='send-eth button eth' >
                                 <div className='title'>SEND ETH</div>
                             </div>
-                            <div className='claim-lp button claim' onClick={() => { claim() }}>
+                            <div className='claim-lp button claim' >
                                 <div className='title'>CLAIM LP</div>
                             </div>
                         </div>
