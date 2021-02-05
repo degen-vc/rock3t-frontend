@@ -46,10 +46,15 @@
         line-height: 1.26;
         letter-spacing: 0.4px;
         position: absolute;
-        width: 180px;
-        font-size: 16px;
-        left: calc(50% - 90px);
+        width: 400px;
+        font-size: 14px;
+        left: calc(50% - 172px);
         top: 50px;
+        a {
+            margin-right: 5px;
+            color: #C2C3C8;
+            border-bottom: 1px solid white;
+        }
         @media (min-width: 421px) {
             position: initial;
         }

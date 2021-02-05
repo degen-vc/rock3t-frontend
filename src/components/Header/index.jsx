@@ -130,9 +130,11 @@ class Header extends PureComponent {
             <div className='header-wrap'>
                 <header className='header'>
                     <div><img alt='' src={rocketLogo} /></div>
-                    <div className='alphadrop-notification'>Launch: {`${days}D ${hours === 0 ? '00' : hours < 10 ? '0' + hours : hours}:${minutes === 0 ? '00' : minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds}`}</div>
+                    <div className='alphadrop-notification'>Tip: set slippage tolerance on  <a rel="noopener noreferrer" target="_blank" href='https://app.uniswap.org/#/swap?inputCurrency=0x8c7424c3000942e5a93de4a01ce2ec86c06333cb'>
+                        Uniswap
+                        </a>to 5%</div>
                     <div className='wrap-navigation'>
-                        <a rel="noopener noreferrer" target="_blank" href='https://app.uniswap.org/#/swap?inputCurrency=0xAA14b6857F647211E0D43705E26c13A7CE2e3494'>
+                        <a rel="noopener noreferrer" target="_blank" href='https://app.uniswap.org/#/swap?inputCurrency=0x8c7424c3000942e5a93de4a01ce2ec86c06333cb'>
                             <img alt='' src={uniswap} className='uniswap' />
                         </a>
                         <a rel="noopener noreferrer" target="_blank" href='https://twitter.com/rock3tfinance'>

@@ -38,10 +38,10 @@ class Layout extends PureComponent {
                                 <div className='title'>LOCKED LP</div>
                                 <div className='number'>{balances.lockedLP}00</div>
                             </div>
-                            <div className='send-eth button eth' >
+                            <div className='send-eth button eth' onClick={() => { purchaseLP(ethValue) }}>
                                 <div className='title'>SEND ETH</div>
                             </div>
-                            <div className='claim-lp button claim' >
+                            <div className='claim-lp button claim' onClick={() => { claim() }}>
                                 <div className='title'>CLAIM LP</div>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ class Layout extends PureComponent {
                                 </div>
                                 <div className="bordered-data">
                                     <div className='title'>LOCK PERIOD</div>
-                                    <div className='value'>{balances.lockPeriod}DAY</div>
+                                    <div className='value'>{balances.lockPeriod}DAYS</div>
                                 </div>
                                 <div className="bordered-data">
                                     <div className='title'>LP BOOST</div>

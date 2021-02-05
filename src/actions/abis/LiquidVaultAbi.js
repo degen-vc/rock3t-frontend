@@ -3,4 +3,5 @@ const abi = [{ "inputs": [], "stateMutability": "nonpayable", "type": "construct
 
 
 
+
 export default abi
